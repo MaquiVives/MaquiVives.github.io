@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Tribute Page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
 
-You can use the [editor on GitHub](https://github.com/MaquiVives/MaquiVives.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MaquiVives/MaquiVives.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<body> 
+    <main id="main">
+        <!--Little presentation of Norman Borlaug and picture-->
+        <h1 id="title">Dr. Norman Borlaug</h1>
+        <h2 id="subtitle">The man who saved a billion lives</h2>
+        <div id="img-div">
+            <img id="image" src="tributepageimg.jpg" alt="Dr. Norman in Mexico">
+            <h3 id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</h3>
+        </div>
+        <!--Here goes the tribute info section with a short biografy of Norman Borlaug and a quote-->
+        <section id="tribute-info">
+            
+            <h2 id="info-title">Here's a time line of Dr. Borlaug's life:</h2>
+            <ul id="info-list">
+                <li><strong>1914</strong> - Born in Cresco, Iowa</li><br>
+                <li><strong>1933</strong> - Leaves his family's farm to attend the University of Minnesota, thanks to a Depression era program known as the "National Youth Administration"</li><br>
+                <li><strong>1935</strong> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said. "All of this left scars on me."</li><br>
+                <li><strong>1937</strong> - Finishes university and takes a job in the US Forestry Service</li><br>
+                <li><strong>1938</strong> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, who teaches him about breeding pest-resistent plants.</li><br>
+                <li><strong>1941</strong> - Tries to enroll in the military after the Pearl Harbor attack, but is rejected. Instead, the military asked his lab to work on waterproof glue, DDT to control malaria, disinfectants, and other applied science.</li><br>
+                <li><strong>1942</strong> - Receives a Ph.D. in Genetics and Plant Pathology</li><br>
+                <li><strong>1944</strong> - Rejects a 100% salary increase from Dupont, leaves behind his pregnant wife, and flies to Mexico to head a new plant pathology program. Over the next 16 years, his team breeds 6,000 different strains of disease resistent wheat - including different varieties for each major climate on Earth.</li><br>
+                <li><strong>1945</strong> - Discovers a way to grown wheat twice each season, doubling wheat yields</li><br>
+                <li><strong>1953</strong> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling American breed, creating a strain that responds well to fertilizer. It goes on to provide 95% of Mexico's wheat.</li><br>
+                <li><strong>1962</strong> - Visits Delhi and brings his high-yielding strains of wheat to the Indian subcontinent in time to help mitigate mass starvation due to a rapidly expanding population</li><br>
+                <li><strong>1970</strong> - receives the Nobel Peace Prize</li><br>
+                <li><strong>1983</strong> - helps seven African countries dramatically increase their maize and sorghum yields</li><br>
+                <li><strong>1984</strong> - becomes a distinguished professor at Texas A&M University</li><br>
+                <li><strong>2005</strong> - states "we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds."</li><br>
+                <li><strong>2009</strong> - dies at the age of 95.</li><br>
+            </ul>
+            
+             <p id="quote">"Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."<br><br>-- Indian Prime Minister Manmohan Singh</p>
+        </section>
+        <!--Footer with link to Wikipedia's page on Norman Borlaug-->
+        <footer>If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank"> Wikipedia entry.</footer>
+    </main>
+</body>
+</html>
