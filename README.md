@@ -1,4 +1,4 @@
-This is a project a made for a course in freecodecamp.org. This is the first of 5 final projects; it's a tribute page that I had to copy from an original tribute page made by them. This is the link to the original tribute page: https://codepen.io/freeCodeCamp/full/zNqgVx. 
+This is a project I made for a course in freecodecamp.org. This is the first of 5 final projects; it's a tribute page that I had to copy from an original tribute page made by them. This is the link to the original tribute page: https://codepen.io/freeCodeCamp/full/zNqgVx. 
 
 I also had some User Stories given for me to develop this page:
 
