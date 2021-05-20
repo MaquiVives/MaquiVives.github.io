@@ -16,4 +16,4 @@ My page passed the exam on freecodecamp.org. I'm glad for that, but I surely kno
 
 All feedback is welcomed and highly appreciated! Thanks in advance!
 
-P.S: I'm also kinda new to Github, so any feedback and/or recommendation about it is also welcomed!
+P.S: I'm also kinda new to Github, so any feedback and/or recommendation about it is also welcome!
